@@ -5,5 +5,5 @@ jobs:
       - image: fadlyas/kernel_dockerfile:latest
     steps:
       - checkout
-      - run: wget https://github.com/Mina-Project/Scripts/raw/master/whyred
-      - run: bash whyred
+      - run: wget https://github.com/Mina-Project/Scripts/raw/master/whyredeas
+      - run: bash whyredeas
