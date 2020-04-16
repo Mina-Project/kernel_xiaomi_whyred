@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: fadlyas/kernel_dockerfile:latest
+    steps:
+      - checkout
+      - run: wget https://github.com/Mina-Project/Scripts/raw/master/whyred
+      - run: bash whyred
